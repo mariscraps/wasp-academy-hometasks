@@ -9,7 +9,6 @@ namespace Homework
     // Задача А1.
     // Кол-во стингеров: ⅓🔹
     //
-    // fjgfg
     // Напишите функцию NumberOfSquares(int limit), которая будет возвращать,
     // сколько целых (начиная с 1, 2 ...) чисел, возведенных в степень 2,
     // а затем суммированных, меньше некоторого заданного числа в качестве
@@ -23,22 +22,8 @@ namespace Homework
         public static int NumberOfSquares(int limit)
         {
             // Здесь необходимо написать код.
-            double count = 0;
-            double current_summa = 0;
-            while (current_summa < limit)
-            {
-                count += 1;
-                current_summa += (Math.Pow(count, 2));
-            }
-            int res = Convert.ToInt32(count);
-            return res;
+            
+            return 0;
         }
-
-        /*public static void Main(string[] args)
-        {
-            int number = Convert.ToInt32(Console.ReadLine());
-            NumberOfSquares(number);
-
-        }*/
     }
 }
